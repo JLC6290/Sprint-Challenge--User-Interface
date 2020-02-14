@@ -34,13 +34,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+A: Semantic HTML structures your content in a *meaningful* way. It's a standardized set of tags that one would expect to have in the majority of web pages, similar to how a large building would be expected to have a door, an elevator, and roof access.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+A: The display: block property will always have a line break following it, thus nothing will follow it on the same line.
+
+The display: inline property will always never have a line break following it, thus the next element will follow it on the same line unless otherwise removed by another means.
 
 3. What are the 4 areas of the box model?
 
+A: The box model consists of the four layers that make up a web page of HTML elements: Margin, Border, Padding, and Content. Each layer may be modified by its respective CSS properties, and the sum of each property-width or each property-height would give you the total width or height respectively.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+A: align-items works by moving elements along the y-axis or cross axis.
+
 5. Explain why git is valuable to a team of developers.
+
+A: Git is a version control system that enables developers to collaborate on a shared code base with individual contributions. Git will prevent overwriting of the shared code base in the event of a merge-conflict.
+
+Git also tracks changes to a code base and maintains a version history, assuming the developer makes such commits.
+
+Git's versatility is rooted in its distributed nature, where each git directory is a functional repository.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
